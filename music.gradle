@@ -1,0 +1,18 @@
+ext{
+    android=[
+            compileSdkVersion:27,
+            minSdkVersion:24,
+            targetSdkVersion:27,
+            versionCode:1,
+            versionName:"1.0",
+            multiDexEnabled:true
+    ]
+
+    depsVersion=[
+            appcompat:'27.1.1'
+    ]
+
+    depsLibs = [
+            appcompat:"com.android.support:appcompat-v7:${depsVersion.appcompat}",
+    ]
+}
